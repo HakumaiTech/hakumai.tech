@@ -10,10 +10,9 @@ topmenu:
 - title: お問い合わせ
   url: "contact/"
 
-- title: Youtube チャネル
-  url: https://www.youtube.com/channel/UCRwxFNQRlgyuvNKFD-8VRmQ
+- title: お仕事のご相談はこちら
+  url: "contact/"
   class: "ml-2 btn btn-dark text-white px-3"
-  external: true
 
 # Footer Menu
 footermenu:
