@@ -10,7 +10,7 @@ topmenu:
 - title: お問い合わせ
   url: "contact/"
 
-- title: Youtube!!
+- title: Youtube チャネル
   url: https://www.youtube.com/channel/UCRwxFNQRlgyuvNKFD-8VRmQ
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
