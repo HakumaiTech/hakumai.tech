@@ -1,12 +1,14 @@
 ---
 layout: page
-title: サイトについて
+title: About
 permalink: "/about/"
 image: assets/images/screenshot.png
 ---
 
-このサイトで Retool, Google App Script を使って、実際にどのようなサービスを作れるかを紹介する個人サイトです。
+このサイトは興味のある技術やサービスを紹介する個人サイトです。
 
-また、Youtube チャネルも運営していますので是非ごらんください！
+Retool や Google App Script を使ったサービスのサンプルも配布予定です。
+
+Youtube チャネルも運営していますので是非ごらんください！
 
 [白米 Youtube チャネル](https://www.youtube.com/channel/UCRwxFNQRlgyuvNKFD-8VRmQ)
