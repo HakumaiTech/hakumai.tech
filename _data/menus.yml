@@ -1,32 +1,32 @@
 # Top Menu
 topmenu:
 
-- title: Home
+- title: ホーム
   url: ""
 
-- title: About
+- title: このサイトについて？
   url: "about/"
 
-- title: Contact
+- title: お問い合わせ
   url: "contact/"
 
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-  class: "ml-2 btn btn-dark text-white px-3"
+- title: Youtube!!
+  url: https://www.youtube.com/channel/UCRwxFNQRlgyuvNKFD-8VRmQ
+  class: "ml-2 btn btn-red text-white px-3"
   external: true
 
 # Footer Menu
 footermenu:
 
-- title: Home
+- title: ホーム
   url: ""
 
-- title: Privacy Policy
-  url: "privacy-policy/"
+# - title: プライバシーポリシー
+#   url: "privacy-policy/"
 
-- title: Contact
+- title: お問い合わせ
   url: "contact/"
 
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
+# - title: Download
+#   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+#   external: true
