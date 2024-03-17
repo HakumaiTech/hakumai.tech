@@ -4,7 +4,7 @@ topmenu:
 - title: Home
   url: ""
 
-- title: 運営者について
+- title: サイトについて
   url: "about/"
 
 - title: お問い合わせ
@@ -12,7 +12,7 @@ topmenu:
 
 - title: Youtube!!
   url: https://www.youtube.com/channel/UCRwxFNQRlgyuvNKFD-8VRmQ
-  class: "ml-2 btn btn-red text-white px-3"
+  class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
 # Footer Menu
