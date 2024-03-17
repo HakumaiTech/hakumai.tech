@@ -5,9 +5,11 @@ permalink: "/about/"
 image: assets/images/screenshot.png
 ---
 
+フリーのエンジニアとして活動しています。
+
 このサイトは興味のある技術やサービスを紹介する個人サイトです。
 
-Retool や Google App Script を使ったサービスのサンプルも配布予定です。
+Retool や Google App Script を使ったサービスの活用事例を紹介します。
 
 Youtube チャネルも運営していますので是非ごらんください！
 
