@@ -1,10 +1,10 @@
 # Top Menu
 topmenu:
 
-- title: ホーム
+- title: Home
   url: ""
 
-- title: このサイトについて？
+- title: 運営者について
   url: "about/"
 
 - title: お問い合わせ
@@ -18,7 +18,7 @@ topmenu:
 # Footer Menu
 footermenu:
 
-- title: ホーム
+- title: Home
   url: ""
 
 # - title: プライバシーポリシー
