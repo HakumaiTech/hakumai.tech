@@ -30,6 +30,8 @@ youtube_username: "@HakumaiTech"
 twitter_username: HakumaiTech
 github_username:  HakumaiTech
 
+google_analytics: G-ZJRKTQ0N5N
+
 # Build settings
 theme: minima
 plugins:
