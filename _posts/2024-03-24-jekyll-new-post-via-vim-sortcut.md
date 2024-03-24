@@ -5,8 +5,8 @@ date: 2024-03-24 13:46:00 +0900
 categories: ['vim']
 ---
 
-vim `.jk` コマンド入力で `_posts/` 配下に新規記事を作成したい。
-`.vimrc` に追記すればOK
+vim `.jk` コマンド入力で `_posts/` 配下に新規記事を作成したい。 <br/>
+`.vimrc` に以下のコードを追記すればOK
 
 ```vim
 function! JekyllNewPost()
