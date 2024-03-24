@@ -41,8 +41,8 @@ minima:
   skin: "solarized-light"
   date_format: "%Y-%m-%d %H:%M"
   social_links:
-    - { platform: github,  user_url: "https://github.com/HakumaiTech" }
     - { platform: youtube,  user_url: "https://www.youtube.com/@HakumaiTech" }
+    - { platform: github,  user_url: "https://github.com/HakumaiTech" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
