@@ -22,8 +22,8 @@ title: Hakumai.tech
 email: hakumaitech@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   都内でフリーランスエンジニアとして活動しています。
-  Ruby on Rails や Retool といったノーコードツールの開発・保守運用お任せ下さい。
-  お仕事のご依頼やお問い合わせはメールアドレスまでご連絡ください。
+  Ruby on Rails や Retool, Google App Script, ノーコードツールの開発・保守運用お任せ下さい。
+  お仕事のご依頼やは hakumaitech@gmail.com までご連絡ください。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hakumai.tech/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HakumaiTech
