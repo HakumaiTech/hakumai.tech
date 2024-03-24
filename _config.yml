@@ -26,10 +26,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   お仕事のご依頼やは hakumaitech@gmail.com までご連絡ください。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hakumai.tech/" # the base hostname & protocol for your site, e.g. http://example.com
-youtube_username: "@HakumaiTech"
-twitter_username: HakumaiTech
-github_username:  HakumaiTech
-
 
 # Build settings
 theme: minima
@@ -42,8 +38,12 @@ header_pages:
   - about.markdown
   - contact.markdown
 minima:
-  skin: "solarized"
-  date_format: "%Y-%m-%d %H:M"
+  skin: "solarized-light"
+  date_format: "%Y-%m-%d %H:%M"
+  social_links:
+    - { platform: github,  user_url: "https://github.com/HakumaiTech" }
+    - { platform: youtube,  user_url: "https://www.youtube.com/@HakumaiTech" }
+    - { platform: twitter, user_url: "https://twitter.com/HakumaiTech" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
