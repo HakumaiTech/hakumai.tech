@@ -1,26 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Hakumai.tech
-email: hakumaitech@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+author:
+  name: HakumaiTech
+  email: hakumaitech@gmail.com
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
   フリーランスエンジニアとして活動しています。
   Ruby on Rails や Retool, Google App Script, ノーコードツールの開発・保守運用お任せ下さい。
   お仕事のご依頼やは hakumaitech@gmail.com までご連絡ください。
@@ -29,37 +14,25 @@ url: "https://hakumai.tech/" # the base hostname & protocol for your site, e.g. 
 
 # Build settings
 theme: minima
+
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/).
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and
+# add a line comment on "theme: minima" above.
+#remote_theme: jekyll/minima
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
-# Custome
+# Theme-specific settings
 google_analytics: G-ZJRKTQ0N5N
 header_pages:
-  - about.markdown
-  - contact.markdown
+  - about.md
+  - contact.md
+
 minima:
   skin: "solarized-light"
   date_format: "%Y-%m-%d %H:%M"
   social_links:
     - { platform: youtube,  user_url: "https://www.youtube.com/@HakumaiTech" }
     - { platform: github,  user_url: "https://github.com/HakumaiTech" }
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
