@@ -42,9 +42,8 @@ header_pages:
   - about.markdown
   - contact.markdown
 minima:
-  skin: classic
+  skin: solarized
   date_format: "%Y-%m-%d %H:%M"
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
