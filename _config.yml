@@ -21,7 +21,7 @@
 title: Hakumai.tech
 email: hakumaitech@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  都内でフリーランスエンジニアとして活動しています。
+  フリーランスエンジニアとして活動しています。
   Ruby on Rails や Retool, Google App Script, ノーコードツールの開発・保守運用お任せ下さい。
   お仕事のご依頼やは hakumaitech@gmail.com までご連絡ください。
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,12 +30,21 @@ youtube_username: "@HakumaiTech"
 twitter_username: HakumaiTech
 github_username:  HakumaiTech
 
-google_analytics: G-ZJRKTQ0N5N
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+# Custome
+google_analytics: G-ZJRKTQ0N5N
+header_pages:
+  - about.markdown
+  - contact.markdown
+minima:
+  skin: classic
+  date_format: "%Y-%m-%d %H:%M"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
