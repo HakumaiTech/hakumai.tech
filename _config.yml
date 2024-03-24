@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   お仕事のご依頼やは hakumaitech@gmail.com までご連絡ください。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hakumai.tech/" # the base hostname & protocol for your site, e.g. http://example.com
+youtube_username:  @HakumaiTech
 twitter_username: HakumaiTech
 github_username:  HakumaiTech
 
