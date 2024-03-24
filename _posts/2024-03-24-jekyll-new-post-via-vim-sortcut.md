@@ -8,7 +8,7 @@ categories: ['vim']
 vim `.jk` コマンド入力で `_posts/` 配下に新規記事を作成したい。
 `.vimrc` に追記すればOK
 
-```
+```vim
 function! JekyllNewPost()
     let title = input('Post title: ')
     " タイトルからファイル名を生成（スペースをハイフンに置き換え、小文字に変換）
