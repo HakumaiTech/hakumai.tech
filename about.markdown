@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+フリーのエンジニアとして活動しています。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+このサイトは興味のある技術やサービスを紹介する個人サイトです。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Retool や Google App Script を使ったサービスの活用事例を紹介します。
 
+Youtube チャネルも運営していますので是非ごらんください！
 
-[jekyll-organization]: https://github.com/jekyll
+[白米 Youtube チャネル](https://www.youtube.com/channel/UCRwxFNQRlgyuvNKFD-8VRmQ)
