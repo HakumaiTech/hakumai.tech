@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "jekyll の記事作成を Vim ショートカットで行う"
+title: "vim ショートカットで jekyll の記事作成"
 date: 2024-03-24 13:46:00 +0900
 categories: ['vim']
 ---
 
-vim 上で `.jk` コマンドで `_posts/` 配下に新規記事を生成したい。
+vim `.jk` コマンド入力で `_posts/` 配下に新規記事を作成したい。
+`.vimrc` に追記すればOK
 
 ```
 function! JekyllNewPost()
@@ -28,4 +29,3 @@ endfunction
 nnoremap .jk :call JekyllNewPost()<CR>
 ```
 
-`.vimrc` に追記して完了
