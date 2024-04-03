@@ -31,6 +31,25 @@ PostgreSQL, MySQL, スプレッドシートなどのデータソースや外部A
 
 ## 開発の流れ
 
-1. データベース設計
-2. 画面作成
-3. データ連携
+1. データベース設計 ... Retool Database を使ってスキーマの定義をします。
+2. 画面作成         ... 画面UIを作成します。
+3. データ連携       ... データベースの情報を画面に表示します。
+
+### データベース設計
+- oms_projects ... 案件情報
+  - name
+  - company_id
+  - status
+- oms_companys ... 会社情報
+- omo_users    ... ユーザー情報
+
+- oms_invoice_status_master ... 請求ステータスを管理するマスター
+- oms_estimate_status_master ... 見積もステータスを管理するマスター
+
+※ Retool Database は1アカウントにつき1つのみ使えるので、他プロジェクトのテーブル名と衝突しないよう suffix に `oms_` を付与して管理しています。
+
+### UI 実装
+-
+
+### データ連携
+
