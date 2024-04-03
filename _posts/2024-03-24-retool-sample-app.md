@@ -38,13 +38,20 @@ PostgreSQL, MySQL, スプレッドシートなどのデータソースや外部A
 ### データベース設計
 - oms_projects ... 案件情報
   - name
-  - company_id
+    - 案件名
   - status
-- oms_companys ... 会社情報
+    - 案件ステータス
+  - invoice_status
+    - 請求ステータス
+  - estimate_status
+    - 見積もりステータス
+  - company_name
+  - updated_at
+  - created_at
 - omo_users    ... ユーザー情報
-
-- oms_invoice_status_master ... 請求ステータスを管理するマスター
-- oms_estimate_status_master ... 見積もステータスを管理するマスター
+  - type
+    - staff, partner
+  - name
 
 ※ Retool Database は1アカウントにつき1つのみ使えるので、他プロジェクトのテーブル名と衝突しないよう suffix に `oms_` を付与して管理しています。
 
@@ -52,4 +59,4 @@ PostgreSQL, MySQL, スプレッドシートなどのデータソースや外部A
 -
 
 ### データ連携
-
+- kk
